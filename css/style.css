@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: aquamarine
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.content{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: ; */
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.vertical{
+    grid-row: auto / span 2;
+}
+
+.card-date{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-img img{
+    width: 100%;
+}
+
+.card-title h2{
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.card-dis p{
+    padding: 10px 30px;
+    text-align: center; 
+}
+
+.card-profile{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.footer a{
+    text-decoration: none;
+    font-family: 'Sacramento', cursive;
+    font-size: 55px;
+}
